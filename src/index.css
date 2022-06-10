@@ -1,13 +1,52 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
 }
+
+body {
+  font-family: Josefin Sans !important;
+  /* padding: 9rem 5rem; */
+}
+
+*::-webkit-scrollbar {
+  background: var(--brown-color);
+  width: .85rem;
+}
+*::selection {
+  background: var(--creame-color);
+  color: var(--brown-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--creame-color);
+}
+
+:root {
+  --creame-color: #A8763E;
+  --copper-color: #6F1A07;
+  --black-color: #0D1010;
+  --brown-color: #281E16;
+  --white-color: #FDFEFD;
+  /* 4d3417 */
+}
+
+/* Animation */
+/* @keyframes flow {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+} */
+
+/* background: linear-gradient(90deg, #d76754, #fff600, #ff00f3, #0033ff, #ff00c4, #d76754);
+background-size: 400%;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+animation: flow 25s linear infinite; */
