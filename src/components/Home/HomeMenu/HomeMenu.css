@@ -1,0 +1,33 @@
+.home-slider {
+    margin-top: 10%;
+}
+.home-slider .home-slider__child {
+    padding: 15px;
+}
+.home-slider .home-slider__box {
+    border-radius: 1%;
+    /* padding: 20px 0; */
+    transition: .3s ease-in;
+}
+.home-slider .up-bx-shadow {
+    box-shadow: 3px 3px 2px 0 var(--copper-color);
+}
+.home-slider .down-bx-shadow {
+    box-shadow: -3px -3px 2px 0 var(--copper-color);
+}
+.home-slider .home-slider__h4 {
+    font-size: 3rem;
+    font-family: Playball;
+    color: var(--copper-color);
+    font-weight: bolder;
+    margin: 0;
+    letter-spacing: 1px;
+    padding-top: .5rem;
+}
+.home-slider .home-slider__p {
+    font-size: 1.5rem;
+    margin: auto;
+    width: 95%;
+    font-family: Playball;
+    line-height: 18px;
+}

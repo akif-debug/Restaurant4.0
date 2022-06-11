@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: Josefin Sans !important;
+  color: var(--black-color) !important;
   /* padding: 9rem 5rem; */
 }
 

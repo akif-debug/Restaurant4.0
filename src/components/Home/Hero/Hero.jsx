@@ -1,6 +1,7 @@
 import React from "react";
 import './Hero.css'
 import HeroData from './HeroData'
+import menu from '../../../assets/menu1.png'
 
 const Home = () => {
   return (
@@ -11,8 +12,8 @@ const Home = () => {
             {HeroData.map((item, index) => {
               return (
                 <div className={item.class}>
-                  <img src={item.img} className="home-carousel__img d-block m-auto" />
-                  <div className="carousel-caption d-none d-md-block" style={{ top: '25rem' }}>
+                  <img src={item.img} className="home-carousel__img d-block m-auto"/>
+                  <div className="carousel-caption">
                     <h2 className="carousel-caption__h2">{item.heading}</h2>
                     <p className="carousel-caption__p">{item.para}</p>
                   </div>

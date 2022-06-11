@@ -5,7 +5,7 @@ import BannerBg3 from '../../../assets/banner3.png'
 const HeroData = [
     {
         img: BannerBg1,
-        heading: 'We serve the taste',
+        heading: 'We serve taste',
         para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolrum.',
         class: 'home-carousel carousel-item active',
     },
@@ -17,7 +17,7 @@ const HeroData = [
     },
     {
         img: BannerBg3,
-        heading: 'We serve hygienically',
+        heading: '100+ dishes',
         para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolrum.',
         class: 'home-carousel carousel-item',
     }
