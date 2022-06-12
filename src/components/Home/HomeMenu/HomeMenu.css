@@ -6,7 +6,7 @@
 }
 .home-slider .home-slider__box {
     border-radius: 1%;
-    /* padding: 20px 0; */
+    padding: 20px 0;
     transition: .3s ease-in;
 }
 .home-slider .up-bx-shadow {
@@ -30,4 +30,11 @@
     width: 95%;
     font-family: Playball;
     line-height: 18px;
+}
+@media (max-width: 590px) {
+    .home-slider {
+        width: 92%;
+        margin: auto;
+        margin-top: 10%;
+    }
 }
