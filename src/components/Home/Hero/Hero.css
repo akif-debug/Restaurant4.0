@@ -6,14 +6,10 @@
     z-index: -100;
     padding-top: 12rem;
     height: 100vh;
-    /* height: 40vh; */
 }
-.home .home-carousel { }
 .home .carousel-caption {
-    /* padding-bottom: 35rem; */
-    position: fixed;
+    position: absolute;
     top: 35%;
-    /* transform: translateY(-100%); */
 }
 .home .carousel-caption__h2 {
     font-size: 9rem;
