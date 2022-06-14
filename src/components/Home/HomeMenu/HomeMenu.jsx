@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './HomeMenu.css'
 import HomeMenuData from "./HomeMenuData";
+import {Link} from 'react-router-dom' 
 
 export default class HomeMenu extends Component {
   render() {
@@ -43,20 +44,25 @@ export default class HomeMenu extends Component {
     };
     return (
       <>
-        <div className="container" style={{ textAlign: 'center' }}>
-          <Slider {...settings} className='home-slider'>
+        <div className="container home-slider" style={{ textAlign: 'center' }}>
+          <h1 className="section__h1">our menu</h1>
+          <p className="section__p">some special dishes</p>
+          <Slider {...settings}>
             {HomeMenuData.map((item, index) => {
               return (
                 <div className="home-slider__child">
                   <div className={item.className}>
                     <img src={item.img} style={{ width: '95%', margin: 'auto' }} />
                     <h4 className="home-slider__h4">{item.heading}</h4>
-                    <p className="home-slider__p">{item.para}</p>
+                    <p className="home-slider__para">{item.para}</p>
                   </div>
                 </div>
               )
             })}
           </Slider>
+          <Link exact to='menu' className="home-slider__link">
+            <button className="home-slider__btn">explore menu</button>
+          </Link>
         </div>
       </>
     );

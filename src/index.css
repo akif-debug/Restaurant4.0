@@ -3,24 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: Josefin Sans !important;
-  color: var(--black-color) !important;
-}
-
 *::-webkit-scrollbar {
   background: var(--brown-color);
   width: .85rem;
 }
+
 *::selection {
   background: var(--creame-color);
   color: var(--brown-color);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--creame-color);
 }
@@ -34,6 +26,38 @@ body {
   /* 4d3417 */
 }
 
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: Josefin Sans !important;
+  color: var(--black-color) !important;
+}
+
+.section__h1 {
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: var(--creame-color);
+}
+.section__p {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: var(--creame-color);
+  font-family: Playball;
+  line-height: 20px;
+  padding-bottom: 3rem;
+}
 /* Animation */
 /* @keyframes flow {
   0% {

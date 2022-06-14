@@ -36,8 +36,7 @@
         height: 40vh;
     }
     .home .carousel-caption {
-        /* padding-bottom: 7.5rem; */
-        top: 28%;
+        top: 33%;
     }
     .home .carousel-caption__h2 {
         font-size: 4rem;
@@ -49,9 +48,6 @@
     }
     .home-carousel__img {
         height: 60vh;
-    }
-    .home .carousel-caption {
-        /* padding-bottom: 18rem; */
     }
     .home .carousel-caption__h2 {
         font-size: 7rem;

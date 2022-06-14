@@ -1,7 +1,6 @@
 import React from "react";
 import './Hero.css'
 import HeroData from './HeroData'
-import menu from '../../../assets/menu1.png'
 
 const Home = () => {
   return (

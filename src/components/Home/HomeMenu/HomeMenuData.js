@@ -1,11 +1,11 @@
-import MenuImg1 from '../../../assets/menu1.png'
-import MenuImg2 from '../../../assets/menu2.png'
-import MenuImg3 from '../../../assets/menu3.png'
-import MenuImg4 from '../../../assets/menu4.png'
-import MenuImg5 from '../../../assets/menu5.png'
-import MenuImg6 from '../../../assets/menu6.png'
-import MenuImg7 from '../../../assets/menu7.png'
-import MenuImg8 from '../../../assets/menu8.png'
+import MenuImg1 from '../../../assets/menu/menu1.png'
+import MenuImg2 from '../../../assets/menu/menu2.png'
+import MenuImg3 from '../../../assets/menu/menu3.png'
+import MenuImg4 from '../../../assets/menu/menu4.png'
+import MenuImg5 from '../../../assets/menu/menu5.png'
+import MenuImg6 from '../../../assets/menu/menu6.png'
+import MenuImg7 from '../../../assets/menu/menu7.png'
+import MenuImg8 from '../../../assets/menu/menu8.png'
 
 const HomeMenuData = [
     {

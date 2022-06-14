@@ -1,6 +1,6 @@
-import BannerBg1 from '../../../assets/banner1.png'
-import BannerBg2 from '../../../assets/banner2.png'
-import BannerBg3 from '../../../assets/banner3.png'
+import BannerBg1 from '../../../assets/banner/banner1.png'
+import BannerBg2 from '../../../assets/banner/banner2.png'
+import BannerBg3 from '../../../assets/banner/banner3.png'
 
 const HeroData = [
     {
