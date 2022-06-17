@@ -1,10 +1,11 @@
 .testi-slider {
-    margin-top: 15rem;
+    margin-top: 10%;
 }
 .testi-slider .testi-slider__col {
     margin-top: 10px;
     text-align: left;
     padding: 5px 10px;
+    margin-bottom: 10px;
 }
 .testi-slider .testi-col__child {
     padding: 10px;
@@ -45,8 +46,11 @@
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+    .testi-slider {
+        width: 90%;
+    }
     .testi-slider .text-box__p {
-        width: 58% !important;
+        width: 52% !important;
     }
 }
 @media (max-width: 992px) {

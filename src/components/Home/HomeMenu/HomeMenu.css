@@ -32,6 +32,7 @@
     font-family: Playball;
     line-height: 18px;
     padding-top: .65rem;
+    color: var(--creame-color);
 }
 .home-slider .home-slider__btn {
     text-transform: capitalize;
