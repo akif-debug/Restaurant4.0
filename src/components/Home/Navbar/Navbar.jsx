@@ -28,7 +28,6 @@ const Navbar = () => {
                         <li className="navigation__item"><Link exact to='/' className="navigation__link"><span>05</span>contact us</Link></li>
                     </ul>
                 </nav>
-
             </div>
         </nav>
         </>

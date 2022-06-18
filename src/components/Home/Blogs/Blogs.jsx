@@ -40,7 +40,9 @@ const Blogs = () => {
         ]
     };
     return (
-        <div className='container blogs-slider'>
+        <div className='container blogs-slider' style={{textAlign: 'center'}}>
+            <h1 className="section__h1">Blogs</h1>
+            <p className="section__p">read our blogs</p>
             <div className="row blogs-row">
                 <Slider {...settings}>
                     {BlogsData.map((item) => {

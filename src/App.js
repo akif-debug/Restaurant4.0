@@ -7,6 +7,7 @@ import HomeMenu from './components/Home/HomeMenu/HomeMenu';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Testi from './components/Home/Testi/Testi';
 import Blogs from './components/Home/Blogs/Blogs';
+import Aud from './components/Home/Music/Music';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <HomeMenu/>
         <Testi/>
         <Blogs/>
+        {/* <Aud/> */}
         <Routes>
           <Route path='home' element='<Hero/>'></Route>
         </Routes>
